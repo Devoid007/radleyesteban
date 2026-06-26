@@ -370,7 +370,7 @@ const events = [
     id: 1,
     title: "PANA Foundation Brand Case Study Champion",
     category: "recognition",
-    image: "assets/Radley Awards.jpeg",
+    image: "assets/Radley Awards.png",
     description:
       "Won 1st place in a brand case study competition by applying business strategy, market understanding, and brand thinking.",
     details:
