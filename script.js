@@ -720,7 +720,6 @@ function animateCounters() {
 
 function init() {
   renderProjects();
-  renderClientSites();
   renderEvents();
   renderSystems();
 
