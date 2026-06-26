@@ -403,7 +403,7 @@ const events = [
     id: 4,
     title: "Philippine Junior Marketing Association Representative",
     category: "speaker",
-    image: "assets/Radley College Speaker.jpeg",
+    image: "assets/Radley College Speaker.jpg",
     description:
       "Represented PJMA during college and began my speaking journey by promoting a large-scale marketing event across schools.",
     details:
