@@ -367,52 +367,179 @@ const projects = [
 
 const events = [
   {
-    title: "Speaking Engagement",
-    category: "speaker",
-    image: "assets/events/Radley Speaking.jpeg",
-    description: "Speaking, presenting, or leading a professional discussion.",
+    id: 1,
+    title: "PANA Foundation Brand Case Study Champion",
+    category: "recognition",
+    image: "assets/Radley Awards.jpeg",
+    description:
+      "Won 1st place in a brand case study competition by applying business strategy, market understanding, and brand thinking.",
+    details:
+      "This was a 1st place win for the PANA Foundation, connected to the Philippine Association of National Advertisers. The competition strengthened how I approach branding: understanding the business problem first, identifying what makes the brand valuable, and shaping the strategy around what can actually make it succeed.",
     size: "large"
   },
   {
-    title: "Speaking Session",
+    id: 2,
+    title: "Startup Village x Quezon City SBCDPO",
+    category: "community",
+    image: "assets/Radley Certificate 2.jpeg",
+    description:
+      "Spoke at a Startup Village event in partnership with Quezon City’s SBCDPO, helping SMBs improve their e-commerce stores.",
+    details:
+      "This Certificate of Appreciation came from speaking at an event by Startup Village in partnership with Quezon City’s Small Business and Cooperatives Development Promotions Office. I helped multiple SMBs understand how to improve their e-commerce presence, online stores, and digital customer experience.",
+    size: ""
+  },
+  {
+    id: 3,
+    title: "Philippine Startup Week Speaker",
     category: "speaker",
-    image: "assets/events/Radley Speaking 2.jpeg",
-    description: "Sharing ideas, presenting insights, or facilitating a room.",
+    image: "assets/Radley Certificate.jpeg",
+    description:
+      "Spoke during Philippine Startup Week for the PYEA community, sharing practical insights for entrepreneurs and startups.",
+    details:
+      "I was invited to speak during Philippine Startup Week, where I had a segment with the PYEA Community, the Philippine Young Entrepreneurs Association. This gave me the opportunity to share business, e-commerce, and growth insights with young entrepreneurs building their own ventures.",
     size: ""
   },
   {
-    title: "Event Presentation",
+    id: 4,
+    title: "Philippine Junior Marketing Association Representative",
     category: "speaker",
-    image: "assets/events/Radley Speaking 3.jpeg",
-    description: "Professional event involvement and public-facing communication.",
+    image: "assets/Radley College Speaker.jpeg",
+    description:
+      "Represented PJMA during college and began my speaking journey by promoting a large-scale marketing event across schools.",
+    details:
+      "This was where my speaking journey started. I represented the Philippine Junior Marketing Association during college when PJMA was hosting a large-scale event. I traveled to multiple schools across the Philippines to connect with students, promote the event, and build interest around marketing, leadership, and student involvement.",
     size: ""
   },
   {
-    title: "Networking Moment",
+    id: 5,
+    title: "USAID E-commerce and FinTech Talk with GCash",
+    category: "speaker",
+    image: "assets/Radley Formal Group.jpeg",
+    description:
+      "Spoke alongside GCash at a USAID event focused on e-commerce, fintech, and business growth.",
+    details:
+      "At this USAID event, I spoke alongside GCash about e-commerce and fintech. This experience showed how digital payments, online selling, and business education can help local businesses become more competitive and accessible in the digital economy.",
+    size: ""
+  },
+  {
+    id: 6,
+    title: "USAID Business Session in Pasay City",
+    category: "community",
+    image: "assets/Radley Formal Group 2.jpeg",
+    description:
+      "Joined officials and business owners in Pasay City to discuss digital commerce and business growth opportunities.",
+    details:
+      "This was another USAID event where I spoke alongside officials and business owners in Pasay City. The session focused on helping local businesses understand how digital tools, e-commerce, and better customer journeys can support growth.",
+    size: ""
+  },
+  {
+    id: 7,
+    title: "USAID Session with PCCI-QC",
+    category: "community",
+    image: "assets/Radley Formal Group 3.jpeg",
+    description:
+      "Delivered a talk for PCCI-QC, supporting business owners with digital commerce and growth education.",
+    details:
+      "This USAID session was with PCCI-QC, the Philippine Chamber of Commerce and Industry Quezon City. I gave a talk to business owners and professionals about digital commerce, online selling, and how businesses can use e-commerce as a growth channel.",
+    size: ""
+  },
+  {
+    id: 8,
+    title: "DigiCities Masterclass in Davao",
+    category: "community",
+    image: "assets/Radley Formal Group 4.jpeg",
+    description:
+      "Spoke to SMBs in Davao about leveraging e-commerce to grow their businesses through the DigiCities Masterclass.",
+    details:
+      "This was a DigiCities Masterclass event in Davao where I spoke to SMBs about using e-commerce to grow their businesses. The focus was practical: helping entrepreneurs understand how digital channels, online stores, customer experience, and better execution can support real business growth.",
+    size: ""
+  },
+  {
+    id: 9,
+    title: "Caloocan City Business Talk",
+    category: "community",
+    image: "assets/Radley Formal Group 5.jpeg",
+    description:
+      "Spoke at an event in Caloocan City focused on helping businesses understand digital growth opportunities.",
+    details:
+      "I was invited as a speaker for an event in Caloocan City, where I shared practical insights with business owners on digital commerce, online customer experience, and how businesses can start building stronger digital foundations.",
+    size: ""
+  },
+  {
+    id: 10,
+    title: "Victorias City, Negros Occidental Talk",
+    category: "speaker",
+    image: "assets/Radley Formal Group 6.jpeg",
+    description:
+      "Spoke in Victorias City, Negros Occidental, helping local businesses understand how e-commerce can support growth.",
+    details:
+      "I was a speaker in Victorias City, Negros Occidental, where I discussed how businesses can leverage e-commerce to expand their reach, improve customer access, and create new growth opportunities.",
+    size: ""
+  },
+  {
+    id: 11,
+    title: "Business Manual GrowthCon",
     category: "networking",
-    image: "assets/events/Radley Networking 1.jpeg",
-    description: "Building relationships through industry events and professional conversations.",
+    image: "assets/Radley Growth Con.jpeg",
+    description:
+      "Attended GrowthCon by The Business Manual to deepen my exposure to business growth, leadership, and entrepreneurship.",
+    details:
+      "I attended GrowthCon by The Business Manual to stay connected with business trends, growth strategies, entrepreneurship, and leadership conversations. Events like this help me sharpen how I think about business models, growth, and market opportunities.",
     size: ""
   },
   {
-    title: "Professional Networking",
+    id: 12,
+    title: "Business Manual Growth Event",
     category: "networking",
-    image: "assets/events/Radley Networking 2.jpeg",
-    description: "Connecting with people across business, technology, and growth spaces.",
+    image: "assets/Radley Growth Con 2.jpeg",
+    description:
+      "Joined another Business Manual event to learn from founders, operators, and business leaders across industries.",
+    details:
+      "This was another event by The Business Manual where I connected with business leaders, operators, and founders. I use these rooms to learn how different businesses grow, what challenges they face, and how operators think about scale.",
     size: ""
   },
   {
-    title: "Prosperna Team",
-    category: "client",
-    image: "assets/events/Radley Prosperna Team.jpeg",
-    description: "Team collaboration and startup growth environment experience.",
+    id: 13,
+    title: "Startup Community Networking",
+    category: "networking",
+    image: "assets/Radley Networking 1.jpeg",
+    description:
+      "Built relationships within the startup community by connecting with CEOs and representatives from different companies.",
+    details:
+      "This moment reflects one of the parts of business I value most: building relationships. I grew my network in the startup community by speaking with CEOs, founders, and company representatives, learning how different teams think about growth, product, customers, and operations.",
     size: ""
   },
   {
-    title: "Recognition & Awards",
-    category: "client",
-    image: "assets/events/Radley Awards.jpeg",
-    description: "Recognition moments connected to professional growth and performance.",
+    id: 14,
+    title: "SME Convention Networking",
+    category: "networking",
+    image: "assets/Radley Networking 2.jpeg",
+    description:
+      "Attended the SME Convention and built trusted connections across different business sectors.",
+    details:
+      "At the SME Convention, I connected with professionals and business owners from different industries. These conversations helped me broaden my understanding of business models, market challenges, and the different ways companies approach growth.",
+    size: ""
+  },
+  {
+    id: 15,
+    title: "Valenzuela City E-commerce Talk",
+    category: "community",
+    image: "assets/Radley Speaking.jpeg",
+    description:
+      "Gave a talk in Valenzuela City on e-commerce and how local businesses can use digital channels to grow.",
+    details:
+      "I gave a talk in Valenzuela City focused on e-commerce and business growth. The goal was to help local business owners understand how online stores, digital customer journeys, and better execution can help them reach more customers.",
+    size: ""
+  },
+  {
+    id: 16,
+    title: "Negros Occidental E-commerce Stage Talk",
+    category: "speaker",
+    image: "assets/Radley Speaking 3.jpeg",
+    description:
+      "Spoke on stage in Negros Occidental about helping businesses leverage e-commerce for growth.",
+    details:
+      "This was a stage talk in Negros Occidental where I discussed how businesses can leverage e-commerce to improve reach, customer access, and revenue opportunities. It reflects my focus on making digital growth practical for business owners.",
     size: ""
   }
 ];
@@ -492,7 +619,7 @@ function renderEvents(filter = "all") {
   eventsGrid.innerHTML = filteredEvents
     .map(event => {
       return `
-        <article class="event-card ${event.size} reveal" data-category="${event.category}">
+        <article class="event-card ${event.size}" data-event-id="${event.id}" data-category="${event.category}">
           <img src="${event.image}" alt="${event.title}">
           <div class="event-info">
             <span>${event.category}</span>
@@ -504,6 +631,7 @@ function renderEvents(filter = "all") {
     })
     .join("");
 
+  attachEventModalListeners();
   observeRevealElements();
 }
 
