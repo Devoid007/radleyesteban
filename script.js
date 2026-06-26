@@ -1,105 +1,367 @@
 const projects = [
+  // FINTECH & BANKING
   {
     id: 1,
-    title: "Prosperna Portfolio",
-    category: "ecommerce",
-    tag: "SaaS / E-commerce Growth",
-    image: "assets/projects/prosperna.jpg",
+    title: "Xentra Solutions Inc.",
+    category: "fintech",
+    tag: "CRM Transformation / FinTech Delivery",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
     description:
-      "Supported 147 businesses through implementation, onboarding, adoption, retention, and revenue growth initiatives.",
-    results: ["₱15.47M+ GMV", "₱2M+ SaaS closed", "15% retention lift"],
+      "Supported CRM transformation and implementation work across fintech, payments, healthcare, and digital commerce environments.",
+    results: ["CRM delivery", "Workflow redesign", "Stakeholder alignment"],
     problem:
-      "Businesses needed stronger digital commerce adoption, better onboarding, clearer reporting, and stronger post-sale growth motions.",
+      "Organizations needed better CRM visibility, cleaner workflows, and stronger operational reporting across complex business processes.",
     action:
-      "Led implementation, stakeholder alignment, onboarding, QBRs, customer health tracking, and lifecycle improvement initiatives.",
+      "Supported implementation planning, requirements gathering, workflow redesign, UAT, dashboards, and stakeholder coordination.",
     result:
-      "Enabled ₱15.47M+ in e-commerce GMV, closed ₱2M+ in SaaS business, generated additional recurring revenue, and improved retention.",
-    link: "#"
+      "Improved CRM visibility, operational structure, and reporting foundations for revenue and customer-facing teams.",
+    link: "https://www.xentrasolutions.com/"
   },
   {
     id: 2,
+    title: "Sun Savings Bank",
+    category: "fintech",
+    tag: "Banking / Digital Experience",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Led website modernization and digital customer experience initiatives for a banking client.",
+    results: ["UAT managed", "Go-live readiness", "Stakeholders aligned"],
+    problem:
+      "The bank needed a modernized digital presence with clearer customer journeys, better stakeholder alignment, and structured go-live readiness.",
+    action:
+      "Coordinated requirements, page planning, UAT execution, feedback management, and implementation readiness.",
+    result:
+      "Supported the bank’s website modernization and helped align stakeholders toward a cleaner digital customer experience.",
+    link: "https://www.sunsavings.ph/"
+  },
+  {
+    id: 3,
+    title: "MVSM Bank",
+    category: "fintech",
+    tag: "Banking / Digital Transformation",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Supported digital transformation and customer experience initiatives through platform implementation and operational enablement.",
+    results: ["Digital enablement", "Customer experience", "Operational support"],
+    problem:
+      "The business needed support in improving digital operations and customer-facing processes.",
+    action:
+      "Supported platform implementation, stakeholder coordination, and operational readiness.",
+    result:
+      "Helped strengthen digital transformation initiatives and improve customer experience foundations.",
+    link: "https://www.mvsmbank.com/"
+  },
+  {
+    id: 4,
+    title: "Koin Payments",
+    category: "fintech",
+    tag: "Payments / CRM Operations",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Delivered CRM transformation support for payments operations, transaction visibility, and workflow improvement.",
+    results: ["Payments workflows", "CRM redesign", "Reporting visibility"],
+    problem:
+      "Payments operations needed clearer processes, stronger reporting visibility, and better CRM structure.",
+    action:
+      "Supported CRM redesign, requirements gathering, stakeholder alignment, and process improvement planning.",
+    result:
+      "Improved operational workflows and helped strengthen visibility across customer and payment-related processes.",
+    link: "https://www.koinpayments.com/"
+  },
+  {
+    id: 5,
+    title: "MarkerTrax",
+    category: "fintech",
+    tag: "FinTech / CRM Transformation",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Supported CRM transformation projects involving fintech workflows, operational processes, and reporting improvements.",
+    results: ["CRM transformation", "Process visibility", "Workflow support"],
+    problem:
+      "The business needed stronger CRM workflows and operational visibility across revenue and customer processes.",
+    action:
+      "Supported implementation planning, stakeholder requirements, workflow redesign, and reporting structures.",
+    result:
+      "Helped improve CRM process clarity and operational visibility for customer-facing teams.",
+    link: "https://www.markertrax.com/"
+  },
+  {
+    id: 6,
+    title: "Kamet Mexico",
+    category: "fintech",
+    tag: "International CRM / Marketing Cloud",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Supported CRM transformation and Marketing Cloud initiatives across international business operations.",
+    results: ["Marketing Cloud", "Lifecycle tracking", "Automation support"],
+    problem:
+      "The business needed stronger lifecycle visibility and automation support across customer acquisition and engagement.",
+    action:
+      "Supported CRM and Marketing Cloud initiatives, lifecycle tracking, and automation planning.",
+    result:
+      "Helped strengthen customer engagement workflows and lifecycle visibility across international operations.",
+    link: "https://www.kamet.mx/"
+  },
+
+  // E-COMMERCE
+  {
+    id: 7,
+    title: "Prosperna Portfolio",
+    category: "ecommerce",
+    tag: "SaaS / E-commerce Growth",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Supported 147 businesses through e-commerce onboarding, adoption, retention, account growth, and digital enablement initiatives.",
+    results: ["147 businesses", "₱15.47M+ GMV", "15% retention lift"],
+    problem:
+      "Businesses needed stronger digital commerce adoption, smoother onboarding, and clearer customer success processes.",
+    action:
+      "Managed implementation, onboarding, platform adoption, QBRs, customer health reviews, and expansion initiatives.",
+    result:
+      "Enabled ₱15.47M+ in e-commerce GMV, supported 147 businesses, improved retention, and contributed to SaaS revenue growth.",
+    link: "https://www.prosperna.com/"
+  },
+  {
+    id: 8,
+    title: "BUM Equipment",
+    category: "ecommerce",
+    tag: "Retail / E-commerce Enablement",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Supported e-commerce enablement, platform onboarding, and digital commerce adoption for a retail brand.",
+    results: ["Retail enablement", "Platform onboarding", "Digital adoption"],
+    problem:
+      "The brand needed stronger e-commerce readiness and platform adoption.",
+    action:
+      "Supported onboarding, digital commerce setup, stakeholder alignment, and operational enablement.",
+    result:
+      "Helped strengthen digital commerce adoption and online selling readiness.",
+    link: "https://www.bumblackarmy.com/"
+  },
+  {
+    id: 9,
+    title: "Harbour City",
+    category: "ecommerce",
+    tag: "Restaurant / Multi-Location E-commerce",
+    image: "assets/projects/Radley Firehouse.jpeg",
+    description:
+      "Led e-commerce rollout support across restaurant operations and multiple locations.",
+    results: ["Multi-location rollout", "Operational training", "Online ordering"],
+    problem:
+      "The business needed a structured e-commerce rollout across restaurant locations with operational alignment.",
+    action:
+      "Managed onboarding, training, stakeholder coordination, store readiness, and operational handover.",
+    result:
+      "Improved online ordering readiness and supported smoother e-commerce adoption across locations.",
+    link: "https://www.iwantdimsum.com/"
+  },
+  {
+    id: 10,
+    title: "MONO",
+    category: "ecommerce",
+    tag: "Retail / E-commerce Operations",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Supported e-commerce operations, platform adoption, and digital customer journey improvements.",
+    results: ["Platform support", "Customer journey", "Digital commerce"],
+    problem:
+      "The brand needed support in improving its digital commerce experience and operational readiness.",
+    action:
+      "Supported platform enablement, customer journey review, and implementation coordination.",
+    result:
+      "Helped improve digital commerce foundations and online customer experience.",
+    link: "https://mono.ph/"
+  },
+  {
+    id: 11,
+    title: "Alibi Lounge Bar",
+    category: "ecommerce",
+    tag: "F&B / Digital Presence",
+    image: "assets/projects/Radley Firehouse.jpeg",
+    description:
+      "Supported digital presence and e-commerce-related enablement for a food and beverage brand.",
+    results: ["Digital presence", "F&B support", "Online visibility"],
+    problem:
+      "The business needed a stronger online customer touchpoint and digital readiness.",
+    action:
+      "Supported digital setup, platform coordination, and customer-facing improvements.",
+    result:
+      "Helped improve digital presence and customer accessibility online.",
+    link: "https://www.alibibaralabang.com/"
+  },
+  {
+    id: 12,
+    title: "Baker J",
+    category: "ecommerce",
+    tag: "Hospitality / F&B E-commerce",
+    image: "assets/projects/Radley Firehouse.jpeg",
+    description:
+      "Supported platform onboarding, digital commerce adoption, and operational enablement for Baker J.",
+    results: ["Platform adoption", "F&B enablement", "Customer journey"],
+    problem:
+      "The brand needed stronger online ordering readiness and operational alignment.",
+    action:
+      "Supported onboarding, adoption, stakeholder coordination, and customer journey improvements.",
+    result:
+      "Helped strengthen digital commerce readiness and operational adoption.",
+    link: "https://www.bakerj.com/"
+  },
+  {
+    id: 13,
+    title: "Firehouse Pizza",
+    category: "ecommerce",
+    tag: "Restaurant / Online Ordering",
+    image: "assets/projects/Radley Firehouse.jpeg",
+    description:
+      "Supported e-commerce adoption and operational enablement for Firehouse Pizza.",
+    results: ["Online ordering", "Store enablement", "Platform adoption"],
+    problem:
+      "The restaurant needed stronger online ordering and digital commerce readiness.",
+    action:
+      "Supported platform onboarding, implementation coordination, and operational setup.",
+    result:
+      "Improved online ordering readiness and helped support smoother customer ordering experiences.",
+    link: "https://www.firehousepizzas.com/"
+  },
+
+  // HEALTHCARE
+  {
+    id: 14,
+    title: "Paysign",
+    category: "healthcare",
+    tag: "Healthcare FinTech / Salesforce Transformation",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Led Salesforce transformation initiatives supporting 200+ users across multiple departments.",
+    results: ["200+ users", "Salesforce", "Cross-functional workflows"],
+    problem:
+      "The organization needed stronger CRM visibility, operational workflows, and customer lifecycle support across departments.",
+    action:
+      "Implemented and supported Sales Cloud, Service Cloud, Marketing Cloud, Pardot, and operational workflows.",
+    result:
+      "Improved customer lifecycle visibility, cross-functional process efficiency, and CRM adoption.",
+    link: "https://paysign.com/"
+  },
+  {
+    id: 15,
+    title: "ABENA",
+    category: "healthcare",
+    tag: "Healthcare / Service Cloud",
+    image: "assets/projects/Radley Prosperna Awards.jpeg",
+    description:
+      "Led Service Cloud and Sales Cloud implementation initiatives supporting customer service and sales operations.",
+    results: ["Service Cloud", "Sales Cloud", "Workflow design"],
+    problem:
+      "Customer service and sales teams needed better workflows and visibility across the customer lifecycle.",
+    action:
+      "Designed CRM workflows and supported Salesforce implementation across service and sales operations.",
+    result:
+      "Improved customer lifecycle management, service visibility, and operational structure.",
+    link: "https://www.abena.com/"
+  },
+  {
+    id: 16,
+    title: "GoRocky",
+    category: "healthcare",
+    tag: "Healthcare / Lifecycle Revenue",
+    image: "assets/projects/Radley GoRocky.jpeg",
+    description:
+      "Built customer lifecycle, sales enablement, reactivation, and AI-assisted workflows that contributed to direct revenue growth.",
+    results: ["₱3.7M+ revenue", "~50% repeat growth", "AI workflows"],
+    problem:
+      "The business needed stronger reactivation, lifecycle messaging, sales enablement, and customer trust-building processes.",
+    action:
+      "Built AI-assisted onboarding, objection handling, reactivation messaging, customer education, and sales enablement frameworks.",
+    result:
+      "Generated ₱3.7M+ in direct revenue and helped improve repeat purchase performance by approximately 50%.",
+    link: "https://gorocky.ph/"
+  },
+
+  // HOSPITALITY
+  {
+    id: 17,
     title: "Chroma Hospitality",
     category: "hospitality",
-    tag: "Customer Success Recovery",
-    image: "assets/projects/chroma.jpg",
+    tag: "Hospitality / Customer Success Recovery",
+    image: "assets/projects/Radley Chroma - Timberland.jpeg",
     description:
       "Recovered a churn-risk hospitality account by diagnosing stakeholder, documentation, and technical blockers.",
     results: ["Issues fixed in 1 week", "Trust rebuilt", "Upsell paths found"],
     problem:
-      "A major hospitality client had slow decision-making, unclear ownership, incomplete documentation, and multiple issues happening at once.",
+      "A major hospitality client had slow decision-making, incomplete documentation, unclear ownership, and multiple issues happening at once.",
     action:
       "Mapped stakeholders, identified root problems, set focused meetings, aligned internally, documented requirements, and presented a recovery plan.",
     result:
       "Urgent technical issues were fixed within a week, documentation was cleaned up, trust was rebuilt, and out-of-scope upsell opportunities surfaced.",
-    link: "#"
+    link: "https://www.chromahospitality.com/"
   },
   {
-    id: 3,
-    title: "Harbour City Group",
-    category: "ecommerce",
-    tag: "Multi-Location Rollout",
-    image: "assets/projects/harbour-city.jpg",
+    id: 18,
+    title: "Crimson Hotel Boracay",
+    category: "hospitality",
+    tag: "Hospitality / Digital Experience",
+    image: "assets/projects/Radley Chroma - Timberland.jpeg",
     description:
-      "Led e-commerce rollout and operational readiness across restaurant locations and operational teams.",
-    results: ["Multi-location rollout", "80+ users trained", "Operations enabled"],
+      "Supported hospitality-related digital customer experience and operational enablement initiatives.",
+    results: ["Hospitality support", "Digital operations", "Customer experience"],
     problem:
-      "The group needed a structured rollout for online ordering across multiple restaurant locations with operational alignment.",
+      "Hospitality teams needed stronger digital customer experience and operational readiness.",
     action:
-      "Managed onboarding, training, rollout readiness, stakeholder coordination, and operational handover.",
+      "Supported stakeholder alignment, platform readiness, and customer-facing digital improvements.",
     result:
-      "Improved digital commerce readiness, trained operational users, and supported smoother online ordering adoption.",
-    link: "#"
+      "Helped strengthen hospitality digital experience and operational support.",
+    link: "https://www.crimsonhotel.com/boracay"
   },
   {
-    id: 4,
-    title: "GoRocky",
-    category: "healthcare",
-    tag: "Lifecycle Revenue",
-    image: "assets/projects/gorocky.jpg",
+    id: 19,
+    title: "Okada Manila",
+    category: "hospitality",
+    tag: "Hospitality / Enterprise Experience",
+    image: "assets/projects/Radley Chroma - Timberland.jpeg",
     description:
-      "Built customer lifecycle, sales enablement, reactivation, and messaging systems that contributed to direct revenue growth.",
-    results: ["₱3.7M+ revenue", "~50% repeat growth", "AI-assisted workflows"],
+      "Part of a hospitality portfolio demonstrating exposure to large-scale customer experience environments.",
+    results: ["Enterprise hospitality", "Customer experience", "Digital growth"],
     problem:
-      "The business needed stronger lifecycle messaging, reactivation, customer trust, and sales enablement systems.",
+      "Large hospitality brands require strong customer experience, visibility, and digital engagement.",
     action:
-      "Built AI-assisted onboarding, objection handling, reactivation, customer education, and sales enablement frameworks.",
+      "Supported digital growth thinking, customer journey review, and hospitality-focused operational understanding.",
     result:
-      "Generated ₱3.7M+ in direct revenue and helped improve repeat purchase performance by approximately 50%.",
-    link: "#"
+      "Built stronger exposure to enterprise hospitality customer experience and digital growth standards.",
+    link: "https://okadamanila.com/"
   },
   {
-    id: 5,
-    title: "Sun Savings Bank",
-    category: "crm",
-    tag: "Digital Experience",
-    image: "assets/projects/sun-savings.jpg",
+    id: 20,
+    title: "The Crib Living",
+    category: "hospitality",
+    tag: "Hospitality / Co-living",
+    image: "assets/projects/Radley Chroma - Timberland.jpeg",
     description:
-      "Supported website modernization, stakeholder requirements, UAT, and digital customer experience delivery.",
-    results: ["UAT managed", "Go-live readiness", "Stakeholders aligned"],
+      "Supported hospitality and property-related digital customer experience initiatives.",
+    results: ["Digital presence", "Customer journey", "Hospitality operations"],
     problem:
-      "The bank needed a cleaner digital customer experience, stronger stakeholder alignment, and structured go-live readiness.",
+      "Property and hospitality businesses need clear digital journeys and strong customer-facing experiences.",
     action:
-      "Coordinated requirements, UAT, implementation timelines, feedback loops, and readiness tracking.",
+      "Supported digital experience review, customer journey thinking, and operational alignment.",
     result:
-      "Supported modernization of the bank’s digital presence and helped bring stakeholders toward final implementation readiness.",
-    link: "#"
+      "Helped strengthen understanding of hospitality and property digital growth opportunities.",
+    link: "https://www.thecribcoliving.filinvest.ph/"
   },
   {
-    id: 6,
-    title: "CRM Transformation Work",
-    category: "crm",
-    tag: "Salesforce / HubSpot",
-    image: "assets/projects/crm-transformation.jpg",
+    id: 21,
+    title: "Timberland Highlands Resort",
+    category: "hospitality",
+    tag: "Hospitality / Booking App Project",
+    image: "assets/projects/Radley Chroma - Timberland.jpeg",
     description:
-      "Delivered CRM transformation, workflow redesign, dashboards, and lifecycle visibility across enterprise environments.",
-    results: ["17% lead conversion lift", "30% faster response", "Dashboards built"],
+      "Assigned as Project Manager to build a bicycle booking app for Timberland Highlands Resort.",
+    results: ["Project management", "Booking app", "Hospitality operations"],
     problem:
-      "Teams needed clearer CRM workflows, stronger reporting, better customer lifecycle visibility, and faster operational response.",
+      "The resort needed a structured bicycle booking experience to support guest operations and activity management.",
     action:
-      "Redesigned workflows, built reporting dashboards, improved CRM structures, and aligned technical and business stakeholders.",
+      "Managed the project requirements, stakeholder coordination, planning, and delivery process for the bicycle booking app.",
     result:
-      "Improved lead conversion, reduced response times, and created better executive visibility across customer and revenue operations.",
-    link: "#"
+      "Helped create a more structured booking flow for resort activity operations and guest experience.",
+    link: "https://www.timberlandresort.com/"
   }
 ];
 
@@ -182,36 +444,50 @@ const events = [
   {
     title: "Speaking Engagement",
     category: "speaker",
-    image: "assets/events/speaking-1.jpg",
-    description: "Add a photo of you speaking, presenting, or leading a session.",
+    image: "assets/events/Radley Speaking.jpeg",
+    description: "Speaking, presenting, or leading a professional discussion.",
     size: "large"
   },
   {
-    title: "Client Discussion",
-    category: "client",
-    image: "assets/events/networking-1.jpg",
-    description: "Add a photo of you talking with clients, teams, or stakeholders.",
-    size: ""
-  },
-  {
-    title: "Industry Event",
-    category: "networking",
-    image: "assets/events/active-1.jpg",
-    description: "Add proof of you attending, connecting, and learning in the room.",
-    size: ""
-  },
-  {
-    title: "Panel / Workshop",
+    title: "Speaking Session",
     category: "speaker",
-    image: "assets/events/speaking-2.jpg",
-    description: "Add event photos where you were involved in a session or discussion.",
+    image: "assets/events/Radley Speaking 2.jpeg",
+    description: "Sharing ideas, presenting insights, or facilitating a room.",
+    size: ""
+  },
+  {
+    title: "Event Presentation",
+    category: "speaker",
+    image: "assets/events/Radley Speaking 3.jpeg",
+    description: "Professional event involvement and public-facing communication.",
     size: ""
   },
   {
     title: "Networking Moment",
     category: "networking",
-    image: "assets/events/networking-2.jpg",
-    description: "Add photos of professional conversations, summits, or meetups.",
+    image: "assets/events/Radley Networking 1.jpeg",
+    description: "Building relationships through industry events and professional conversations.",
+    size: ""
+  },
+  {
+    title: "Professional Networking",
+    category: "networking",
+    image: "assets/events/Radley Networking 2.jpeg",
+    description: "Connecting with people across business, technology, and growth spaces.",
+    size: ""
+  },
+  {
+    title: "Prosperna Team",
+    category: "client",
+    image: "assets/events/Radley Prosperna Team.jpeg",
+    description: "Team collaboration and startup growth environment experience.",
+    size: ""
+  },
+  {
+    title: "Recognition & Awards",
+    category: "client",
+    image: "assets/events/Radley Awards.jpeg",
+    description: "Recognition moments connected to professional growth and performance.",
     size: ""
   }
 ];
