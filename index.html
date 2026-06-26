@@ -374,6 +374,45 @@
     </section>
   </main>
 
+<!-- PROJECT MODAL -->
+<div class="modal" id="projectModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close-modal aria-label="Close modal">×</button>
+
+    <img src="" alt="" id="modalImage" class="modal-image">
+
+    <div class="modal-body">
+      <p class="eyebrow" id="modalCategory"></p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+
+      <div class="modal-details">
+        <div>
+          <strong>Problem</strong>
+          <p id="modalProblem"></p>
+        </div>
+
+        <div>
+          <strong>Action</strong>
+          <p id="modalAction"></p>
+        </div>
+
+        <div>
+          <strong>Result</strong>
+          <p id="modalResult"></p>
+        </div>
+      </div>
+
+      <a href="#" id="modalLink" class="btn btn-primary" target="_blank">
+        Visit / View Project
+        <span>↗</span>
+      </a>
+    </div>
+  </div>
+</div>
+  
  <!-- EVENT MODAL -->
 <div class="modal" id="eventModal" aria-hidden="true">
   <div class="modal-backdrop" data-close-event-modal></div>
