@@ -1,53 +1,418 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Radley Esteban | Revenue Operations Portfolio</title>
+
+  <title>Radley Esteban | Revenue Operations & CRM Transformation</title>
+  <meta
+    name="description"
+    content="Portfolio of Radley Esteban — Revenue Operations, CRM Transformation, Customer Lifecycle Growth, E-commerce, and GTM Operations."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <div class="progress-bar" id="progressBar"></div>
 
-  <section class="hero">
-    <div>
-      <p class="eyebrow">Revenue Operations & CRM Transformation</p>
-      <h1>Radley Esteban</h1>
-      <h2>Revenue Operations | CRM Transformation | Customer Lifecycle Growth</h2>
-      <p>
-        I help companies fix revenue leaks, improve customer journeys,
-        and turn messy CRM and lifecycle operations into scalable growth systems.
-      </p>
-      <a href="mailto:radleyss09@gmail.com" class="button">Let’s Connect</a>
+  <header class="site-header" id="siteHeader">
+    <a href="#home" class="brand">
+      <span class="brand-mark">R</span>
+      <span class="brand-text">Radley Esteban</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#home">Home</a>
+      <a href="#impact">Impact</a>
+      <a href="#work">Projects</a>
+      <a href="#clients">Client Sites</a>
+      <a href="#events">Events</a>
+      <a href="#systems">Systems</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-bg-orb hero-bg-orb-one"></div>
+      <div class="hero-bg-orb hero-bg-orb-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Revenue Operations • CRM Transformation • GTM Systems</p>
+
+          <h1>
+            I build growth systems that turn messy customer journeys into measurable revenue.
+          </h1>
+
+          <p class="hero-subtitle">
+            I help companies fix revenue leaks, improve onboarding, strengthen customer lifecycle operations,
+            and turn CRM, e-commerce, and GTM workflows into scalable business engines.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              View Case Studies
+              <span>→</span>
+            </a>
+
+            <a href="assets/cv.pdf" class="btn btn-secondary" target="_blank">
+              Download CV
+              <span>↗</span>
+            </a>
+          </div>
+
+          <div class="hero-trust">
+            <span>Worked across</span>
+            <strong>SaaS</strong>
+            <strong>E-commerce</strong>
+            <strong>Fintech</strong>
+            <strong>Healthcare</strong>
+            <strong>Hospitality</strong>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-image-wrap">
+              <!-- Replace this with your strongest professional/action photo -->
+              <img src="assets/radley-hero.png" alt="Radley Esteban" class="profile-image">
+            </div>
+
+            <div class="floating-card floating-card-one">
+              <span>₱15.47M+</span>
+              <small>E-commerce GMV Enabled</small>
+            </div>
+
+            <div class="floating-card floating-card-two">
+              <span>147+</span>
+              <small>Businesses Supported</small>
+            </div>
+
+            <div class="floating-card floating-card-three">
+              <span>4.94%</span>
+              <small>Churn Maintained</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT METRICS -->
+    <section class="impact-panel" id="impact">
+      <div class="container">
+        <div class="metrics-grid">
+          <article class="metric-card reveal">
+            <span class="metric-icon">▣</span>
+            <strong data-count="147">0</strong>
+            <p>Businesses Supported</p>
+          </article>
+
+          <article class="metric-card reveal">
+            <span class="metric-icon">↗</span>
+            <strong data-prefix="₱" data-suffix="M+" data-count="15.47">0</strong>
+            <p>E-commerce GMV Enabled</p>
+          </article>
+
+          <article class="metric-card reveal">
+            <span class="metric-icon">◆</span>
+            <strong data-prefix="₱" data-suffix="M+" data-count="3.7">0</strong>
+            <p>Direct Revenue Generated</p>
+          </article>
+
+          <article class="metric-card reveal">
+            <span class="metric-icon">◎</span>
+            <strong data-prefix="₱" data-suffix="M+" data-count="2">0</strong>
+            <p>New SaaS Business Closed</p>
+          </article>
+
+          <article class="metric-card reveal">
+            <span class="metric-icon">✦</span>
+            <strong data-suffix="%" data-count="15">0</strong>
+            <p>Retention Improvement</p>
+          </article>
+
+          <article class="metric-card reveal">
+            <span class="metric-icon">⌁</span>
+            <strong data-suffix="%" data-count="4.94">0</strong>
+            <p>Churn Maintained</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section class="section what-i-do" id="about">
+      <div class="container two-column">
+        <div class="section-copy reveal">
+          <p class="eyebrow">What I Do</p>
+          <h2>I operate where revenue, customers, systems, and execution meet.</h2>
+          <p>
+            My work sits in the messy middle of growth: CRM transformation, onboarding, adoption,
+            retention, expansion, e-commerce enablement, stakeholder alignment, and reporting.
+          </p>
+
+          <a href="#systems" class="text-link">See my operating systems →</a>
+        </div>
+
+        <div class="capability-grid reveal">
+          <article>
+            <span>01</span>
+            <h3>CRM & Revenue Operations</h3>
+            <p>Salesforce, HubSpot, dashboards, workflows, pipeline visibility, lifecycle reporting.</p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <h3>Customer Lifecycle Growth</h3>
+            <p>Onboarding, adoption, QBRs, retention, reactivation, expansion, and customer health.</p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <h3>E-commerce & Digital Growth</h3>
+            <p>Platform adoption, online customer journeys, GMV enablement, and conversion improvement.</p>
+          </article>
+
+          <article>
+            <span>04</span>
+            <h3>Post-Sale GTM Operations</h3>
+            <p>Turning closed-won customers into activated, retained, and expanding accounts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section class="section selected-work" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects that show how I think, fix, and grow.</h2>
+          </div>
+
+          <div class="filter-buttons" id="projectFilters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="crm">CRM</button>
+            <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+            <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+          </div>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+          <!-- Project cards are injected by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENT WEBSITE SLOTS -->
+    <section class="section client-sites" id="clients">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="eyebrow">Client Website Slots</p>
+            <h2>A living library of client websites, platforms, and digital properties.</h2>
+            <p>
+              Use this section to showcase public client websites you supported, launched, improved,
+              migrated, optimized, or managed.
+            </p>
+          </div>
+
+          <a href="#contact" class="btn btn-secondary">Add More Later</a>
+        </div>
+
+        <div class="client-sites-grid" id="clientSitesGrid">
+          <!-- Client website cards are injected by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS / ACTIVE PROOF -->
+    <section class="section events-section" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="eyebrow">In The Room</p>
+            <h2>Speaking, presenting, networking, and building in public.</h2>
+            <p>
+              Add photos of you leading discussions, speaking at events, joining summits,
+              running client sessions, presenting, or actively connecting with people.
+            </p>
+          </div>
+
+          <div class="filter-buttons" id="eventFilters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="speaker">Speaker</button>
+            <button class="filter-btn" data-filter="networking">Networking</button>
+            <button class="filter-btn" data-filter="client">Client Sessions</button>
+          </div>
+        </div>
+
+        <div class="events-grid" id="eventsGrid">
+          <!-- Event photos are injected by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SYSTEMS -->
+    <section class="section systems-section" id="systems">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="eyebrow">Systems I Work With</p>
+            <h2>Tools are not the strategy. But the right stack makes strategy move faster.</h2>
+          </div>
+        </div>
+
+        <div class="systems-tabs reveal">
+          <div class="tab-buttons" id="tabButtons">
+            <button class="tab-btn active" data-tab="crm">CRM</button>
+            <button class="tab-btn" data-tab="automation">Automation</button>
+            <button class="tab-btn" data-tab="analytics">Analytics</button>
+            <button class="tab-btn" data-tab="commerce">E-commerce</button>
+            <button class="tab-btn" data-tab="collab">Collaboration</button>
+          </div>
+
+          <div class="tab-content" id="tabContent">
+            <!-- Injected by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METHOD -->
+    <section class="section method-section">
+      <div class="container two-column">
+        <div class="section-copy reveal">
+          <p class="eyebrow">My Operating Method</p>
+          <h2>A.R.M.O.R. for revenue systems.</h2>
+          <p>
+            My approach to Revenue Operations and GTM is built around protecting the revenue engine:
+            attract the right customers, route them through the right process, monetize value,
+            optimize weak points, and retain through strong customer outcomes.
+          </p>
+        </div>
+
+        <div class="method-stack reveal">
+          <article>
+            <strong>A</strong>
+            <div>
+              <h3>Attract</h3>
+              <p>Clarify target segments, pains, positioning, and entry points.</p>
+            </div>
+          </article>
+
+          <article>
+            <strong>R</strong>
+            <div>
+              <h3>Route</h3>
+              <p>Map ownership, handoffs, CRM stages, SLAs, and lifecycle movement.</p>
+            </div>
+          </article>
+
+          <article>
+            <strong>M</strong>
+            <div>
+              <h3>Monetize</h3>
+              <p>Connect value delivery to revenue, upsell, renewal, and expansion motions.</p>
+            </div>
+          </article>
+
+          <article>
+            <strong>O</strong>
+            <div>
+              <h3>Optimize</h3>
+              <p>Find leaks across onboarding, adoption, reporting, conversion, and retention.</p>
+            </div>
+          </article>
+
+          <article>
+            <strong>R</strong>
+            <div>
+              <h3>Retain</h3>
+              <p>Improve customer health, QBRs, lifecycle programs, and long-term outcomes.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="contact-section section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Let’s Work Together</p>
+          <h2>Need someone who can turn customer and revenue chaos into a working system?</h2>
+          <p>
+            I’m open to Revenue Operations, CRM Transformation, GTM Operations, E-commerce,
+            Customer Lifecycle, Account Management, and Growth roles.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="mailto:radleyss09@gmail.com" class="btn btn-primary">Email Me</a>
+          <a href="assets/cv.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close modal">×</button>
+
+      <img src="" alt="" id="modalImage" class="modal-image">
+
+      <div class="modal-body">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+
+        <div class="modal-details">
+          <div>
+            <strong>Problem</strong>
+            <p id="modalProblem"></p>
+          </div>
+
+          <div>
+            <strong>Action</strong>
+            <p id="modalAction"></p>
+          </div>
+
+          <div>
+            <strong>Result</strong>
+            <p id="modalResult"></p>
+          </div>
+        </div>
+
+        <a href="#" id="modalLink" class="btn btn-primary" target="_blank">
+          Visit / View Project
+          <span>↗</span>
+        </a>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section class="metrics">
-    <div><strong>147+</strong><span>Businesses Supported</span></div>
-    <div><strong>₱15.47M+</strong><span>E-Commerce GMV Enabled</span></div>
-    <div><strong>₱3.7M+</strong><span>Revenue Generated</span></div>
-    <div><strong>15%</strong><span>Retention Improvement</span></div>
-  </section>
-
-  <section class="content">
-    <h2>Selected Work</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Prosperna</h3>
-        <p>Supported SaaS and e-commerce businesses through onboarding, adoption, retention, and revenue growth initiatives.</p>
-      </div>
-
-      <div class="card">
-        <h3>Chroma Hospitality</h3>
-        <p>Resolved churn-risk issues by aligning stakeholders, fixing documentation gaps, and delivering urgent technical improvements.</p>
-      </div>
-
-      <div class="card">
-        <h3>GoRocky</h3>
-        <p>Built customer lifecycle and reactivation workflows that contributed to direct revenue growth and repeat purchase improvement.</p>
-      </div>
-    </div>
-  </section>
-
+  <script src="script.js"></script>
 </body>
 </html>
