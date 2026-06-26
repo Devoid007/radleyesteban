@@ -589,27 +589,6 @@ function renderProjects(filter = "all") {
   attachProjectModalListeners();
 }
 
-function renderClientSites() {
-  clientSitesGrid.innerHTML = clientSites
-    .map(site => {
-      const isPlaceholder = site.name.toLowerCase().includes("add client");
-
-      return `
-        <article class="client-site-card reveal">
-          <span class="placeholder-badge">${site.type}</span>
-          <h3>${site.name}</h3>
-          <p>${site.note}</p>
-          <a href="${site.url}" target="_blank">
-            ${isPlaceholder ? "Replace this slot →" : "Visit site →"}
-          </a>
-        </article>
-      `;
-    })
-    .join("");
-
-  observeRevealElements();
-}
-
 function renderEvents(filter = "all") {
   const filteredEvents =
     filter === "all"
