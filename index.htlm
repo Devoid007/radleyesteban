@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radley Esteban | Revenue Operations Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Revenue Operations & CRM Transformation</p>
+      <h1>Radley Esteban</h1>
+      <h2>Revenue Operations | CRM Transformation | Customer Lifecycle Growth</h2>
+      <p>
+        I help companies fix revenue leaks, improve customer journeys,
+        and turn messy CRM and lifecycle operations into scalable growth systems.
+      </p>
+      <a href="mailto:radleyss09@gmail.com" class="button">Let’s Connect</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div><strong>147+</strong><span>Businesses Supported</span></div>
+    <div><strong>₱15.47M+</strong><span>E-Commerce GMV Enabled</span></div>
+    <div><strong>₱3.7M+</strong><span>Revenue Generated</span></div>
+    <div><strong>15%</strong><span>Retention Improvement</span></div>
+  </section>
+
+  <section class="content">
+    <h2>Selected Work</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Prosperna</h3>
+        <p>Supported SaaS and e-commerce businesses through onboarding, adoption, retention, and revenue growth initiatives.</p>
+      </div>
+
+      <div class="card">
+        <h3>Chroma Hospitality</h3>
+        <p>Resolved churn-risk issues by aligning stakeholders, fixing documentation gaps, and delivering urgent technical improvements.</p>
+      </div>
+
+      <div class="card">
+        <h3>GoRocky</h3>
+        <p>Built customer lifecycle and reactivation workflows that contributed to direct revenue growth and repeat purchase improvement.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
