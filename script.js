@@ -720,6 +720,52 @@ function setupModalClose() {
   });
 }
 
+function attachEventModalListeners() {
+  document.querySelectorAll(".event-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const eventId = Number(card.dataset.eventId);
+      const selectedEvent = events.find(item => item.id === eventId);
+
+      openEventModal(selectedEvent);
+    });
+  });
+}
+
+function openEventModal(selectedEvent) {
+  const modal = document.getElementById("eventModal");
+
+  document.getElementById("eventModalImage").src = selectedEvent.image;
+  document.getElementById("eventModalImage").alt = selectedEvent.title;
+  document.getElementById("eventModalCategory").textContent = selectedEvent.category;
+  document.getElementById("eventModalTitle").textContent = selectedEvent.title;
+  document.getElementById("eventModalDescription").textContent = selectedEvent.description;
+  document.getElementById("eventModalDetails").textContent = selectedEvent.details;
+
+  modal.classList.add("open");
+  modal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+}
+
+function closeEventModal() {
+  const modal = document.getElementById("eventModal");
+
+  modal.classList.remove("open");
+  modal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+}
+
+function setupEventModalClose() {
+  document.querySelectorAll("[data-close-event-modal]").forEach(item => {
+    item.addEventListener("click", closeEventModal);
+  });
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      closeEventModal();
+    }
+  });
+}
+
 function setupMobileNav() {
   const navToggle = document.getElementById("navToggle");
   const siteNav = document.getElementById("siteNav");
@@ -854,6 +900,7 @@ function init() {
   setupFilters();
   setupTabs();
   setupModalClose();
+  setupEventModalClose();
   setupMobileNav();
   setupScrollEffects();
   observeRevealElements();
