@@ -930,6 +930,25 @@ p {
   line-height: 1.55;
 }
 
+.event-modal-note {
+  margin-top: 26px;
+  padding: 22px;
+  border-radius: 18px;
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+}
+
+.event-modal-note strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue);
+}
+
+.event-modal-note p {
+  margin-bottom: 0;
+  color: var(--text-muted);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(26px);
