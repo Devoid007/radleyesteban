@@ -649,57 +649,6 @@ p {
   font-weight: 750;
 }
 
-.client-sites {
-  background: white;
-}
-
-.client-sites-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-}
-
-.client-site-card {
-  position: relative;
-  min-height: 230px;
-  padding: 24px;
-  overflow: hidden;
-  transition: 0.25s ease;
-}
-
-.client-site-card:hover {
-  transform: translateY(-7px);
-  box-shadow: var(--shadow);
-}
-
-.client-site-card::after {
-  content: "";
-  position: absolute;
-  width: 140px;
-  height: 140px;
-  right: -50px;
-  bottom: -50px;
-  border-radius: 50%;
-  background: rgba(37, 99, 235, 0.08);
-}
-
-.client-site-card h3 {
-  margin-bottom: 8px;
-}
-
-.client-site-card p {
-  color: var(--text-muted);
-  margin-bottom: 22px;
-}
-
-.client-site-card a {
-  position: relative;
-  z-index: 1;
-  color: var(--blue);
-  font-weight: 900;
-  text-decoration: none;
-}
-
 .placeholder-badge {
   display: inline-flex;
   margin-bottom: 20px;
