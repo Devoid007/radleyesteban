@@ -675,8 +675,6 @@ function attachProjectModalListeners() {
 function openProjectModal(project) {
   const modal = document.getElementById("projectModal");
 
-  document.getElementById("modalImage").src = project.image;
-  document.getElementById("modalImage").alt = project.title;
   document.getElementById("modalCategory").textContent = project.tag;
   document.getElementById("modalTitle").textContent = project.title;
   document.getElementById("modalDescription").textContent = project.description;
