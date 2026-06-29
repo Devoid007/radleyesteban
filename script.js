@@ -565,13 +565,20 @@ function renderProjects(filter = "all") {
 
   projectGrid.innerHTML = filteredProjects
     .map(project => {
+      const categoryLabel = project.category
+        .replace("fintech", "FinTech")
+        .replace("ecommerce", "E-commerce")
+        .replace("healthcare", "Healthcare")
+        .replace("hospitality", "Hospitality");
+
       return `
         <article class="project-card reveal" data-project-id="${project.id}" data-category="${project.category}">
-          <div class="project-image">
-            <img src="${project.image}" alt="${project.title}">
-          </div>
-
           <div class="project-body">
+            <div class="project-topline">
+              <span class="project-mark">${project.title.charAt(0)}</span>
+              <span class="project-category-chip">${categoryLabel}</span>
+            </div>
+
             <span class="project-tag">${project.tag}</span>
             <h3>${project.title}</h3>
             <p>${project.description}</p>
@@ -579,6 +586,10 @@ function renderProjects(filter = "all") {
             <div class="project-results">
               ${project.results.map(result => `<span>${result}</span>`).join("")}
             </div>
+
+            <button class="project-read-more" type="button">
+              View case details →
+            </button>
           </div>
         </article>
       `;
